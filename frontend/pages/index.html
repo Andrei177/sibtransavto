@@ -10,6 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link href="https://cdn.jsdelivr.net/npm/jarallax@2/dist/jarallax.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jarallax@2/dist/jarallax.min.js"></script>
     <link
       rel="shortcut icon"
       href="../assets/images/logo.svg"
@@ -34,13 +36,13 @@
       content="Закажите грузоперевозки с СИБТРАНСАВТО. Безопасность, оперативность и высокий уровень сервиса."
     />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://sibtransavto.ru" />
-    <!-- <meta property="og:image" content="ссылку на картинку сюда"> ДОБАВИТЬ КАРТИНКУ -->
+    <meta property="og:url" content="https://sibtransavto-omsk.ru" />
+    <meta property="og:image" content="https://yandex.ru/images/search?pos=12&from=tabbar&img_url=https%3A%2F%2Falteco.pro%2Fassets%2Ftemplates%2Fimg%2Finland_003.jpg&text=сибтрансавто+фура&rpt=simage&lr=20031">
     <meta name="robots" content="index, follow" />
   </head>
   <body>
     <div class="wrapper">
-      <div class="start-back-img"></div>
+      <div data-jarallax data-speed="0.45" class="start-back-img"></div>
       <div class="side-menu hide-side-menu">
         <div class="side-menu__inner">
           <ul class="nav-list-items-side">
@@ -62,7 +64,7 @@
         <nav class="start-nav">
           <div class="logo-container">
             <div class="logo-img">
-              <img src="../assets/images/logo.svg" alt="sibtransavto" />
+              <img src="../assets/images/logo.svg" alt="сибтрансавто" />
             </div>
             <a href="index.html"
               ><div class="logo-title">ООО «СИБТРАНСАВТО»</div></a
@@ -299,16 +301,16 @@
           <h2 class="title">Этапы работы с нами</h2>
         </div>
         <div class="main-steps">
-          <img src="../assets/images/mobile.svg" alt="mobile" loading="lazy" />
-          <img src="../assets/images/cost.svg" alt="cost" loading="lazy" />
+          <img src="../assets/images/mobile.svg" alt="сибтрансавто общение" loading="lazy" />
+          <img src="../assets/images/cost.svg" alt="сибтрансавто стоимость" loading="lazy" />
           <img
             src="../assets/images/agreement.svg"
-            alt="agreement"
+            alt="сибтрансавто договор"
             loading="lazy"
           />
           <img
             src="../assets/images/delivery.svg"
-            alt="delivery"
+            alt="сибтрансавто доставка"
             loading="lazy"
           />
           <div class="number-item">
@@ -361,7 +363,7 @@
         </div>
         <div class="our-partners-images container">
           <div>
-            <img class="partner-img" src="../assets/images/partners.svg" alt="газпром" />
+            <img class="partner-img" src="../assets/images/partners.png" alt="сибтрансавто партнёры" />
           </div>
         </div>
         <!-- <div class="partners-images">
@@ -480,7 +482,7 @@
             </label>
             <span class="policy">
               Я согласен с
-              <span class="down-line">политикой конфиденциальности</span>
+              <a class="down-line" href="policy.html" target="_blank">политикой конфиденциальности</a>
             </span>
           </div>
           <div class="message"></div>

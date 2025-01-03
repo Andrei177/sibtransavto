@@ -459,7 +459,7 @@ a {
   flex-wrap: wrap;
   align-items: center;
   gap: 5px; */
-  background: linear-gradient(148deg, rgba(255, 255, 255, 0.00) 70.45%, #385BE3 96.88%), radial-gradient(222.8% 115.75% at 92.84% 0%, #385BE3 0%, rgba(255, 255, 255, 0.00) 100%), radial-gradient(357.01% 94.41% at 92.27% 34.61%, rgba(234, 230, 251, 0.00) 0%, rgba(139, 135, 161, 0.00) 54.86%, #090132 100%), linear-gradient(270deg, rgba(104, 137, 255, 0.20) 0.11%, rgba(6, 55, 231, 0.20) 99.87%), linear-gradient(180deg, #FFF 0%, #BBE0FF 38.1%, #68BBFF 100%);
+  background: linear-gradient(148deg, rgba(255, 255, 255, 0.00) 70.45%, #385BE3 96.88%), radial-gradient(222.8% 115.75% at 91.84% 0%, #385BE3 0%, rgba(255, 255, 255, 0.00) 100%), radial-gradient(73.01% 160.41% at 76.27% 35.61%, rgba(234, 230, 251, 0.00) 0%, rgba(139, 135, 161, 0.00) 54.86%, #090132 100%), linear-gradient(270deg, rgba(104, 137, 255, 0) 0.11%, rgba(6, 55, 231, 0.20) 99.87%), linear-gradient(180deg, #FFF 0%, #BBE0FF 38.1%, #68BBFF 100%);
   margin-bottom: 200px;
 }
 .partner-img{
@@ -660,6 +660,8 @@ input[type="tel"]:focus {
 .down-line {
   border-bottom: 1px solid white;
   cursor: pointer;
+  display: inline;
+  color: white;
 }
 @media (max-width: 1845px) {
   .step-description__title {
@@ -1015,16 +1017,34 @@ input[type="tel"]:focus {
   .form {
     width: 55vw;
   }
+
+  .services-list__item-desc {
+    font-size: 15px;
+  }
 }
 @media (max-width: 830px) {
   .nav-list-items {
     display: none;
+  }
+  .nav-list__item-link{
+    font-size: 18px;
   }
   .start-nav {
     padding: 15px 30px;
   }
   .burger {
     display: flex;
+  }
+}
+@media (max-width: 775px){
+  .services-list__item-desc {
+    font-size: 14px;
+    width: calc(100% - 60px);
+  }
+  .services-list__item-number {
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
   }
 }
 @media (max-width: 700px) {
@@ -1046,7 +1066,7 @@ input[type="tel"]:focus {
   }
 
   .our-partners-images{
-    margin-bottom: 75px;
+    margin-bottom: 125px;
   }
 
   .about-company__text {
@@ -1083,6 +1103,9 @@ input[type="tel"]:focus {
 
   .form {
     width: 70vw;
+  }
+  .title-container {
+    margin-bottom: 25px;
   }
 }
 @media (max-width: 620px) {
@@ -1153,8 +1176,23 @@ input[type="tel"]:focus {
   .form-range-title {
     font-size: 18px;
   }
-  .start-back-img {
-    background-position: 69% 0;
+  .jarallax-container div{
+    background-position: 69% 50% !important;
+  }
+  .services-list__item-desc {
+    font-size: 12px;
+  }
+  .services-list__item-desc {
+    width: calc(100% - 40px);
+  }
+  .services-list__item-number {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    border-radius: 7px 0px 0px 7px;
+  }
+  .services-list__item{
+    margin-bottom: 24px;
   }
 }
 @media (max-width: 560px) {
@@ -1179,6 +1217,10 @@ input[type="tel"]:focus {
   }
 }
 @media (max-width: 540px) {
+  .wrapper{
+    background: linear-gradient(268deg, #3E6CF5 1.27%, #150072 64.09%, #080125 107.41%);
+  }
+
   .start-nav {
     padding-top: 10px;
     padding-right: 15px;
@@ -1224,7 +1266,7 @@ input[type="tel"]:focus {
     font-size: 25px;
   }
   .all-transportation__link {
-    font-size: 20px;
+    font-size: 17px;
   }
   .form {
     width: 77vw;
@@ -1259,9 +1301,10 @@ input[type="tel"]:focus {
     font-size: 16px;
   }
   .all-transportation__link {
-    font-size: 18px;
+    font-size: 14px;
   }
   .all-transportation-btn {
+    padding: 9px;
     margin-top: 10px;
   }
   .title {
@@ -1276,6 +1319,22 @@ input[type="tel"]:focus {
   }
   .form {
     width: 85vw;
+  }
+
+  .desc-text, .upper, .small-upper {
+    font-size: 9px;
+  }
+  .step-description__title {
+    padding-top: 25px;
+    font-size: 16px;
+  }
+  .step-description__text {
+    font-size: 12px;
+  }
+  .main-steps {
+    width: 77vw;
+    margin: 0 auto;
+    margin-bottom: 58px;
   }
 }
 @media (max-width: 420px) {

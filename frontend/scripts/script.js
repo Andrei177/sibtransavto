@@ -1,13 +1,13 @@
-const fon = document.querySelector(".start-back-img");
+// const fon = document.querySelector(".start-back-img");
 
-//const initialBackgroundPositionY = parseFloat(getComputedStyle(fon).backgroundPositionY) || 0;
+// //const initialBackgroundPositionY = parseFloat(getComputedStyle(fon).backgroundPositionY) || 0;
 
-window.addEventListener("scroll", () => {
-  const scrollPosition = window.scrollY;
+// window.addEventListener("scroll", () => {
+//   const scrollPosition = window.scrollY;
 
-  //fon.style.backgroundPositionY = `${initialBackgroundPositionY + scrollPosition * 0.5}px`;
-  fon.style.backgroundPositionY = `${scrollPosition * 0.5}px`;
-});
+//   //fon.style.backgroundPositionY = `${initialBackgroundPositionY + scrollPosition * 0.5}px`;
+//   fon.style.backgroundPositionY = `${scrollPosition * 0.5}px`;
+// });
 
 // Функция обновления значения для инпутов
 function updateRangeValue(input) {

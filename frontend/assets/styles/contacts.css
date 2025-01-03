@@ -223,8 +223,8 @@ a {
   font-style: normal;
   font-weight: 500;
 }
-.item-info hr{
-  margin: 30px 0px;
+.item-info p{
+  margin: 20px 0px 15px 0px;
   width: 46%;
   background-color: #FFF;
   height: 2px;
@@ -410,6 +410,9 @@ a {
   .nav-list-items {
     display: none;
   }
+  .nav-list__item-link{
+    font-size: 18px;
+  }
   .start-nav {
     padding: 15px 30px;
   }
@@ -470,6 +473,9 @@ a {
   }
 }
 @media (max-width: 540px) {
+  .wrapper{
+    background: linear-gradient(268deg, #3E6CF5 1.27%, #150072 64.09%, #080125 107.41%);
+  }
   .start-nav {
     padding-top: 10px;
     padding-right: 15px;
@@ -480,5 +486,17 @@ a {
   .title{
     font-size: 16px;
     letter-spacing: 1.5px;
+  }
+  .item-post{
+    padding: 9px 6%;
+    border-radius: 8px 0px 10px 0px;
+    font-size: 14px;
+  }
+  .item-list{
+    padding: 25px 7px;
+  }
+  .contacts-list__item{
+    border-radius: 10px;
+    border: 2px solid #FF4245;
   }
 }

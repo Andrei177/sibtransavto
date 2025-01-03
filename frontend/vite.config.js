@@ -11,6 +11,7 @@ export default defineConfig({
         transportation: './pages/transportation.html',  // Страница транспортировки
         contacts: './pages/contacts.html',  // Страница контактов
         technics: './pages/technics.html',  // Страница с техникой
+        policy: './pages/policy.html',  // Страница с техникой
       },
     },
     minify: 'terser',  // Включаем минификацию через terser
